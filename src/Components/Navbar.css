@@ -1,0 +1,39 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 0rem 6rem;
+    align-items: center;
+}
+.nav-left h2{
+    color: white;
+    font-size: 2.5rem;
+
+}
+.nav-right{
+    display: flex;
+    color: white;
+    gap: 3rem;
+    align-items: center; 
+}
+
+.tag  {
+  position: relative;
+  display: inline-block;   
+  padding: 2px 0;
+  cursor: pointer;         
+}
+
+.tag::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;                 
+  height: 2px;              
+  background-color: rgb(29, 142, 203);    
+  transition: width 0.3s ease-in-out; 
+}
+
+.tag:hover::after {
+  width: 100%;             
+}

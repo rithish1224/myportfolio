@@ -1,0 +1,62 @@
+.hero-container{
+    margin: 10rem 0rem 0rem 6rem;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-hero h3{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.left-hero h1{
+    font-size: 4.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.left-hero h2{
+    color: white;
+    display: inline;
+}
+.typing{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.typer {
+    display: inline;
+    color: rgb(22, 222, 222);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.typing h2{
+    font-size: 2.5rem;
+    padding-right: .5REM;
+}
+.social{
+    color: aliceblue;
+    margin-top: 1rem;
+}
+.social a{
+    margin-right: 0.6rem;
+    transition: all 0.3s ease; 
+}
+
+.social a:hover{
+    text-shadow: 0 0 8px #0a66c2, 0 0 12px #0a66c2;
+    transform: scale(1.2);      
+}
+.right-hero{
+    width: 550px;
+    height: 550px;
+    margin-right: 2rem ;
+    margin-top: -7rem;
+}
+.left-hero{
+    margin-top: 2rem;
+}
+.about p{
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+}

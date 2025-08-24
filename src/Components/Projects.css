@@ -1,0 +1,94 @@
+.pro-container{
+    margin: 10rem 0rem 0rem 8rem;
+    color: azure;
+}
+.pro-container h1{
+    font-size: 2.5rem;
+}
+
+.custom-spotlight-card{
+    background: rgba(255, 255, 255, 0.129);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    margin-top: 5rem;
+    padding: 0px;
+    transition: 0.3s all ease;
+    overflow: hidden;
+    width: 450px;
+    height: 320px;
+}
+.custom-spotlight-card:hover{
+    box-shadow: 0 4px 30px rgba(103, 102, 102, 0.786);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+.pro-image{
+    width: 100%;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.pro-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+.pro-desc{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.pro-git,.pro-live{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.pro-git button{
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0aa2cc;
+    margin-top: 5px;
+    
+}
+.git,.live{
+    width: 20px;
+    height: 20px;
+}
+.code,.demo{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 5px;
+    text-align: center;
+}
+.pro-live button{
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    border: none;  
+}
+.pro-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;           
+    transition: opacity 0.3s ease;
+}
+
+.custom-spotlight-card:hover .pro-link {
+    opacity: 1; 
+
+}
+
+.custom-spotlight-card:hover .pro-image {
+  filter: blur(4px);  /* adjust px for stronger/weaker blur */
+  transform: scale(1.05); /* optional: zoom slightly for a cool effect */
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    color: #0aa2cc;
+}
+
